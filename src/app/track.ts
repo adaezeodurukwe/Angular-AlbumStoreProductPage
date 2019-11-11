@@ -4,10 +4,3 @@ export interface Track {
     trackLength: string;
     trackPrice: number;
 }
-
-export interface Album {
-    name: string;
-    releaseDate: string;
-    coverImage: string;
-    tracks: Track[];
-}
